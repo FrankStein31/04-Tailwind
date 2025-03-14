@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Image, { StaticImageData } from 'next/image';
-import image1 from '../../../public/images/project1.jpg';
-import image2 from '../../../public/images/project2.jpg';
+import image1 from '../../../public/images/app1.png';
+import image2 from '../../../public/images/app2.png';
 
 export const metadata: Metadata = {
   title: 'Proyek',
@@ -49,8 +49,8 @@ export default function Projects() {
       <div className="mt-16">
         <h2 className="text-2xl">Aplikasi</h2>
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-16 mt-8">
-          <ProjectItem name="Aplikasi 1" url="https://example.com" urlDisplay="App Store" imageSrc={image1} />
-          <ProjectItem name="Aplikasi 2" url="https://example.com" urlDisplay="Google Play" imageSrc={image2} />
+          <ProjectItem name="Penyewaan Bis" url="https://github.com/FrankStein31/Penyewaan-Bis-Laravel" urlDisplay="Website Laravel" imageSrc={image1} />
+          <ProjectItem name="Penyewaan Taman" url="https://github.com/FrankStein31/Penyewaan-Taman-Laravel" urlDisplay="Website Laravel" imageSrc={image2} />
         </ul>
       </div>
     </div>
